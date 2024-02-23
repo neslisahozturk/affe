@@ -1,0 +1,105 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+@font-face {
+    font-family: Gecade;
+    src: url(assets/fonts/Gecade.ttf);
+  }
+  @font-face {
+    font-family: Goldleaf;
+    src: url(assets/fonts/GoldleafBoldPersonalUseBold-eZ4dO.ttf);
+  }
+body{
+    padding-top: 50px;
+}
+/*.menu{
+    z-index: 9999;
+}*/
+#menu{ 
+    background-color:#Fff;
+    height: 76px;
+    border-bottom: 1px solid #D8D6C5;
+    position:fixed;
+    overflow: hidden;
+    top:0;
+    width: 100%;
+}
+
+#logocontainer{
+    width:80px;
+    float:left;
+}
+#logo{
+    top:23px;
+    left:165px;
+    position: relative;
+}
+#menuelements ul{
+    top:22px;
+    position: relative;
+    margin-right: 165px;
+    padding-left:152px;
+    float:right;
+    text-align: right;
+    list-style:none;
+    list-style: none;
+}
+#menuelements ul li{
+    float:left;
+    margin-left:152px ;
+}
+#menuelements ul a{
+    font-family: Goldleaf;
+    font-size: 20px;
+    color:#3E415C;
+    letter-spacing: 2px;
+}
+#menuelements a:hover{
+    color:#E17A5F
+}
+#ikon{
+    text-decoration: none;
+    float: right;
+}
+#article{
+    position: relative;
+    margin-left: 165px;
+    margin-top: 130px;
+    float: left;
+}
+#art-text{
+    padding-left: 150px;
+    position: relative;
+    font-size: 75px;
+    font-family: Goldleaf;
+    letter-spacing:12px;
+    line-height: 109%;
+    color: #3E415C;
+    float: left;
+    
+}
+#art-img{
+    width: 400px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 130px;
+    padding-right: 30px;
+}
+aside{
+    position: relative;
+    margin-right: 165px;
+    margin-top: 130px;
+    float: right;
+}
+footer{
+    margin-left:165px;
+    position: absolute;
+    bottom:0;
+}
+#footer p{
+    font-family: Gecade;
+    color:#E17A5F;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
